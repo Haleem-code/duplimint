@@ -76,6 +76,17 @@ export default function CreateWallet() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-black-100">
+      <div
+        style={{
+          position: "absolute",
+          top: "20px",
+          left: "20px",
+          fontSize: "20px", // Adjust font size for logo
+          fontWeight: "bold",
+        }}
+      >
+        <h1>🟢CHAINMINT🔘</h1>
+      </div>
       <div className="p-5">
         <div className="text-center mb-5">CREATE A CUSTODIAL WALLET</div>
         {!walletAddress ? (

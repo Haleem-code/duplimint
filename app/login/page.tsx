@@ -28,9 +28,17 @@ const LoginPage = () => {
 
   return (
     <div className="logo">
-      <h1 className="text-2xl font-bold items-center justify-center text-white-600">
-        🟢CHAINMINT🔘
-      </h1>
+      <div
+        style={{
+          position: "absolute",
+          top: "20px",
+          left: "20px",
+          fontSize: "20px", // Adjust font size for logo
+          fontWeight: "bold",
+        }}
+      >
+        <h1>🟢CHAINMINT🔘</h1>
+      </div>
       <div className="flex flex-col items-center justify-center min-h-screen bg-black-100">
         <h1 className="text-3xl font-bold mb-6">Login to ChainMint</h1>
         <button
