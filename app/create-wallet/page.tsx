@@ -43,10 +43,10 @@ export default function CreateWallet() {
           headers: {
             "X-PROJECT-ID":
               process.env.NEXT_PUBLIC_PROJECT_ID ||
-              "eaa53b04-a685-4d50-90a4-21d832a860fe",
+              "ck_staging_35Zr1xBDyZbaE3xb9qdob1xU8XJxmeaiDPxFWPwFhWbjp1oFsWbVRW2FWT4E9k34TWcLzeDvgCbGVHEDdVH4PVp1VtUE4R4Qt34Z4Q45U6xXEZ331bg88ULVVW5CTmBrCxV5AU3GMd314FK25XK13wkmx6YKZ7iQSWujhAHYW6Ltc7chS1VdrcRctH6NKyWZirfsHBcNhkcf23PXZKBLYAV",
             "X-CLIENT-SECRET":
               process.env.NEXT_PUBLIC_CLIENT_SECRET ||
-              "ck_staging_35Zr1xBDyZbaE3xb9qdob1xU8XJxmeaiDPxFWPwFhWbjp1oFsWbVRW2FWT4E9k34TWcLzeDvgCbGVHEDdVH4PVp1VtUE4R4Qt34Z4Q45U6xXEZ331bg88ULVVW5CTmBrCxV5AU3GMd314FK25XK13wkmx6YKZ7iQSWujhAHYW6Ltc7chS1VdrcRctH6NKyWZirfsHBcNhkcf23PXZKBLYAV",
+              "sk_staging_AB9yMCY8Gesbec4Mk1fSd9DpkCnHA4snuiJs2kETsoeKxWXAdwdDrKp2Ksv2fUi8sJyYGbZZMZEnyYgEPztfmQVbVFdw9NP6vZGSNMW72C4EVmzTZSXPTUy6AQqFgYmMG4vGShDuzbBktwM7sSCFDyn6qehXMbmjcHACCSDtm6mFDuSLb2pBiL4pGMDWsmWH3ka3UxeC4Je6iW6B47QsDjcb",
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
