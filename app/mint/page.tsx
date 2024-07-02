@@ -48,14 +48,14 @@ const MintPage = () => {
               width: "150px",
               height: "150px",
               marginBottom: "1rem",
-              marginLeft: "7.5rem",
+              display:"inline",
               alignItems: "center",
             }} // Adjust size as needed
           />
-          <p style={{ marginBottom: "0.5rem", fontSize: "0.75rem" }}>
+          <p style={{ marginBottom: "0.5rem", fontSize: "1rem" }}>
             SCAN TO MINT🔼
           </p>
-          <p style={{ marginBottom: "0.5rem", fontSize: "0.75rem" }}>
+          <p style={{ marginBottom: "0.5rem", fontSize: "1rem" }}>
             copy password: onchainmint
           </p>
           <button
